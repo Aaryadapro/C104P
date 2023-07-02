@@ -1,0 +1,31 @@
+body{
+    background-color:deeppink;
+}
+button{
+    border-radius:25px;
+    width: 125px;
+    height:50px;
+    font-size:27px;
+    background-color: coral;
+    color:white;
+}
+img{
+    border-style:ridge;
+    border-color:goldenrod;
+}
+#footer{
+    width:100%;
+    color:rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    font-size:20px;
+    bottom:0;
+    position:fixed;
+    font-weight:bold;
+    margin-top:10px;
+    height:70px;
+    background-color:orange;
+    text-align:center;
+    line-height:3;
+
+}
