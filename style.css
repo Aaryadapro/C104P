@@ -1,0 +1,22 @@
+body{
+    background-color: blanchedalmond;
+}
+#op{
+    background-color:dodgerblue;
+    height:50px;
+    width:450;
+    vertical-align: middle;
+}
+#op:hover{
+    background-color: darkorange;
+    border-width:5px;
+    border-style:solid;
+    vertical-align: text-middle;
+}
+#camera{
+    border-style: ridge;
+    width:250px;
+    height:250px;
+    border-width:10px;
+    border-color:goldenrod;
+}

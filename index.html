@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Face recognition app</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    </head>
+    <body>
+        <Center>
+            <h1>Face recognition app</h1>
+            <hr>
+            <br>
+            <h2>Model is trained to identify the following objects</h2>
+            <br>
+            <div id="op"><h2>Father</h2></div>
+            <div id="op"><h2>Mother</h2></div>
+            <div id="op"><h2>Father</h2></div>
+            <div id="op"><h2 id="result_object_name">Family Member -</h2></div>
+            <div id="op"><h2 id="result_object_accuracy">Accuracy -</h2></div>
+            <br><br>
+            <h3>Your Webcam</h3>
+            <div id="camera"></div>
+            <button class="btn btn-info" onclick="takeSnapshot()">Capture Image</button>
+        </Center>
+    </body>
+</html>
