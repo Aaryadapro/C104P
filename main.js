@@ -1,13 +1,13 @@
 Webcam.set({
     width: 250,
     height: 250,
-    image_format: 'png',
+    image_format: "png",
     png_quality:90
 });
             
 camera = document.getElementById("camera");
  
-Webcam.attach("#camera");
+Webcam.attach(camera);
 
 function takeSnapshot()
 {
